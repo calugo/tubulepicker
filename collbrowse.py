@@ -1,3 +1,11 @@
+# Carlos A Lugo. 2023 Sainsbury Laboratory - University of Cambridge.
+"""
+Synopsis
+    Deploys a GUI which allows to load tiff stacks of images of Microtubular Cortexes, browse through each frame and select points which define the angle between colliding Microtubules. 
+    The events can be annotated by K-catastrophe, X-Crossing, U-undefined, Z-zippering.
+    The results are stored in a CVS file.
+"""
+
 from tkinter import *
 from tkinter import ttk
 from tkinter import filedialog as fd
